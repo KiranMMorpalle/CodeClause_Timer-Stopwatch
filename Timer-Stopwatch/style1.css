@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    height: 100%;
+}
+   
+
+.container{
+    /* background: rgb(63, 62, 62); */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;   
+    align-items: center;
+
+    background-image: url(dark2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-blend-mode:soft-light;
+    background-size: 100%;
+
+}
+
+#home{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+    align-items: center;
+    margin: 30px 10px;
+    background: white;
+}
+
+#home #first{
+    margin: 0 40px;
+    /* font-size:large; */
+}
+
+#home #second a{
+    margin: 0 40px;
+    color: green;
+}
+
+
+#stopwatch{
+    font-size: 100px;
+    color: white;
+    /* box-shadow: 0px 0px 10px rgb(255, 253, 253); */
+    
+    padding: 10px;
+    border-radius: 10px;
+    /* margin-top: 10px; */
+
+}
+
+#buttton{
+    display: flex;
+}
+
+button{
+    background-color:rgb(238, 135, 18);
+    color: white;
+    font-size: larger;
+    
+    border:none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(61, 53, 53);
+
+    /* margin-top: 20px; */
+    margin: 20px;
+    padding: 20px;
+    width: 100px;
+
+    transition: all 0.5;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    box-shadow: none;
+    /* transition: all 0.5; */
+}
